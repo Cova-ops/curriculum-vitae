@@ -17,9 +17,9 @@ const Page = forwardRef(({ children, title = '', meta, ...other }: typeProps, re
       {meta}
     </Helmet>
 
-    <div ref={ref} {...other}>
+    <main ref={ref} {...other}>
       {children}
-    </div>
+    </main>
   </>
 ))
 
