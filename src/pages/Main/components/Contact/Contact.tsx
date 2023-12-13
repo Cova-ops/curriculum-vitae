@@ -43,6 +43,8 @@ const data = [
   }
 ]
 
+// -------------------------------------------------
+
 const Contact = () => {
   return (
     <section className={styles.section}>

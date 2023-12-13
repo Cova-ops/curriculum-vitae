@@ -23,6 +23,8 @@ const data = [
   'Performance Testing'
 ]
 
+// -------------------------------------------------
+
 const Skills = () => {
   return (
     <section className={styles.section}>

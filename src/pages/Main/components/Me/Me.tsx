@@ -12,6 +12,8 @@ const data = {
   description: <><mark>Results-oriented</mark> Fullstack JavaScript Developer with a <mark>proven track record</mark> of designing, developing, and implementing complex web applications. Proficient in both frontend and backend technologies, with expertise in popular frameworks such as <mark>React and Node.js</mark>. Adept at <mark>collaborating with cross-functional teams</mark> to deliver high-quality software solutions within specified timelines. <mark>Strong analytical and problem-solving skills</mark>, coupled with a commitment to staying abreast of emerging trends in web development.</>
 }
 
+// -------------------------------------------------
+
 const Me = () => {
   return (
     <section className={styles.section}>

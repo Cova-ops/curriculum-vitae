@@ -1,5 +1,5 @@
 // assets
-import logoXira from '../../../../assets/logo_xira.png'
+import LogoXira from '../../../../assets/logo_xira.png'
 
 // styles
 import styles from './Experience.module.css'
@@ -7,34 +7,36 @@ import styles from './Experience.module.css'
 // constants
 const data = [{
   company: 'Xira, Mexico City, Mexico',
-  companyImage: logoXira,
+  companyImage: LogoXira,
   dateStarted: '2022-12-31T12:00:00.000Z',
   dateEnded: null,
   isCurrentlyWorkingHere: true,
   jobTitle: 'Development Manager',
   points: [
-    'Manage the time of the development team with all the current projects of the company, such as estimating times for future projects in the company, as well as validating scope and requirements.',
-    'Organize the development team to do a restore to the code base that is used for most of the new implementations, so as not to have obsolete code.',
-    'Being responsible for completing current projects on time, such as resolving any questions or issues that have arisen during development time.',
-    'Be in constant search of new technologies and tools to improve or create new products for sale in the company.'
+    'Act as a solutions architect whenever a new implementation is required for a client or for internal purposes. Currently overseeing two flagship products within the company.',
+    'Explore ways to shorten development times by automating internal processes, enabling the implementation of new solutions in less than 1 week.',
+    'Establish best programming practices for enhanced maintenance and more effective development.',
+    'Keep project completion dates in mind to consistently meet client-established deadlines.'
   ],
-  keyAchivement: 'Being the only one in the company to meet the KPIs assigned at the beginning of each quarter.',
+  keyAchivement: 'Collaborate with another developer to design the current flagship product of the company, pioneering the use of this architecture in Mexico.',
   technologies: []
 }, {
   company: 'Xira, Mexico City, Mexico',
-  companyImage: logoXira,
+  companyImage: LogoXira,
   dateStarted: '2021-12-02T12:00:00.000Z',
   dateEnded: '2022-12-31T12:00:00.000Z',
   isCurrentlyWorkingHere: false,
   jobTitle: 'Software Engineer Jr.',
   points: [
-    'Chatbots creations for the interaction of international users with the different services of the companies using APIs, RPAs, and DB to carry out automated transactional actions.',
-    'Development of new technology to implement a virtual voice assistant to one of the most important telecommunication companies in Mexico.',
-    'Being the only one in the company to meet the KPIs assigned at the beginning of each quarter.'
+    "Development of Chatbots using the company's proprietary technology, with API integrations and connections to databases.",
+    'Implementation of RPAs for the automation of processes on various websites.',
+    'Being the only one in the company to meet its KPIs at the end of each quarter of the year.'
   ],
-  keyAchivement: 'Being the only one in the company to meet the KPIs assigned at the beginning of each quarter.',
+  keyAchivement: 'Creation of a new Voicebot architecture within the company to be implemented in one of the largest telecommunications companies in Mexico.',
   technologies: []
 }]
+
+// -------------------------------------------------
 
 const Experience = () => {
   const makeDate = (text: string) => {

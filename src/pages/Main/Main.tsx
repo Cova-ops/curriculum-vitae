@@ -1,9 +1,11 @@
 // components
 import { Page } from '../../components'
-import { Contact, Experience, Me, Projects, Skills } from './components'
+import { Contact, Education, Experience, Language, Me, Projects, Skills } from './components'
 
 // styles
 import styles from './Main.module.css'
+
+// -------------------------------------------------
 
 function App () {
   return (
@@ -18,6 +20,10 @@ function App () {
       <Skills />
 
       <Projects />
+
+      <Education />
+
+      <Language />
 
     </Page>
   )
