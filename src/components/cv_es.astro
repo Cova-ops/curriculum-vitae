@@ -26,24 +26,32 @@
     <h1>Daniel Covarrubias Sanchez</h1>
   </section>
 
-  <section id="summary">
+  <!-- <section id="summary">
     <h3>Resumen</h3>
     <p>
-      Ingeniero en sistemas computacionales con más de 3 años de experiencia en
+      Ingeniero en sistemas computacionales con más de 2 años de experiencia en
       desarrollo de software, especializado en automatización y desarrollo
       Backend. Hábil en resolución de problemas, trabajo en equipo, liderazgo y
       aprendizaje rápido. Especializado en la creación de soluciones eficientes
       y escalables que optimizan procesos y mejoran la productividad.
     </p>
-  </section>
+  </section> -->
 
   <section id="skills">
-    <h3>Skills</h3>
-    <p>
-      Node.js, Python, Rust, MySQL, SQL Server, PostgreSQL, MongoDB, Redis,
-      Docker, APIs, Web Services, Kubernetes, AWS, CI/CD, Jest, JWT, OAuth,
-      WebSocket, ReactJS
-    </p>
+    <section id="hard_skills">
+      <h3>Habilidades duras</h3>
+      <p>
+        Javascript, Typescript, Node.js, Express.js, MongoDB, MySQL, PostgreSQL,
+        Redis, Docker, Kubernetes, AWS (S3, EC2, Lambda, RDS), Python, GitHub
+      </p>
+    </section>
+    <section id="soft_skills">
+      <h3>Habilidades blandas</h3>
+      <p>
+        Resolución de problemas, Trabajo en equipo, Liderazgo, Aprendizaje
+        rápido, Adaptabilidad, Comunicación efectiva.
+      </p>
+    </section>
   </section>
 
   <section id="experience">
@@ -56,26 +64,26 @@
       <p class="lapse">Enero 2023 - ACTUALIDAD</p>
       <ul>
         <li>
-          Codiseñé y lideré el desarrollo del producto insignia de la empresa,
-          impulsando la innovación y escalabilidad.
+          <b>Codiseñé y lideré</b> el desarrollo del producto insignia de la empresa,
+          mejorando su <b>innovación, escalabilidad y rendimiento</b>.
         </li>
         <li>
-          Actué como Arquitecto de Soluciones, ofreciendo implementaciones
-          personalizadas para sistemas internos y necesidades diversas de
-          clientes.
+          <b>Actué como Arquitecto de Soluciones</b>, diseñando e implementando
+          sistemas personalizados para optimizar procesos internos y satisfacer
+          diversas necesidades de clientes.
         </li>
         <li>
-          Dirigí el desarrollo y mantenimiento de dos productos insignia,
-          asegurando su alto rendimiento y confiabilidad.
+          <b>Dirigí el desarrollo y mantenimiento</b> de dos productos clave, garantizando
+          su <b>alta disponibilidad, rendimiento y estabilidad</b>.
         </li>
         <li>
-          Automatizé procesos internos clave, reduciendo los tiempos de
-          desarrollo en un 50 % y permitiendo el despliegue de nuevas soluciones
-          en menos de una semana.
+          <b>Automaticé procesos internos críticos</b>, reduciendo los tiempos
+          de desarrollo en un 50 % y permitiendo el despliegue de nuevas
+          soluciones en menos de <b>una semana</b>.
         </li>
         <li>
-          Entregué proyectos a tiempo de manera consistente, superando las
-          expectativas de los clientes y fortaleciendo la reputación de la
+          <b>Lideré entregas de proyectos a tiempo y con calidad</b>, superando
+          las expectativas de los clientes y fortaleciendo la reputación de la
           empresa.
         </li>
       </ul>
@@ -88,25 +96,38 @@
       <p class="lapse">Diciembre 2021 - Diciembre 2022</p>
       <ul>
         <li>
-          Diseñé e implementé una nueva arquitectura de Voicebot utilizada por
-          una de las principales empresas de telecomunicaciones en México,
-          mejorando significativamente la experiencia del cliente.
+          <b>Diseñé e implementé</b> una nueva arquitectura de <b>Voicebot</b> utilizada
+          por una de las principales empresas de telecomunicaciones en México, mejorando
+          significativamente la <b>experiencia del cliente</b> y la eficiencia operativa.
         </li>
         <li>
-          Desarrollé Chatbots avanzados con tecnología propietaria, integrando
-          APIs y bases de datos para optimizar procesos y funcionalidades.
+          <b>Desarrollé Chatbots avanzados</b> con tecnología propietaria, integrando
+          <b>APIs, bases de datos y NLP</b>, optimizando la interacción y
+          automatización de procesos.
         </li>
         <li>
-          Implementé soluciones de RPA para automatizar procesos complejos en
-          múltiples sitios web, aumentando la eficiencia y reduciendo errores.
+          <b>
+            Implementé soluciones de RPA (Automatización de Procesos Robóticos)
+          </b>
+          para automatizar flujos complejos en múltiples plataformas, aumentando
+          la eficiencia y reduciendo errores manuales.
         </li>
         <li>
-          Alcancé y superé mis KPIs trimestrales de manera constante, siendo el
-          único miembro del equipo en cumplir con todas las metas durante el
-          año.
+          <b>Superé consistentemente mis KPIs trimestrales</b>, siendo el único
+          miembro del equipo en cumplir <b>todas las metas anuales</b>,
+          destacando por mi rendimiento y compromiso.
         </li>
       </ul>
     </div>
+  </section>
+
+  <section id="languages">
+    <h3>Idiomas</h3>
+    <p>
+      <span> Español: <b>Nativo</b> </span>
+      <span> Inglés: <b>Avanzado (C1)</b> </span>
+      <span> Alemán: <b>Basico (A2)</b> </span>
+    </p>
   </section>
 </div>
 
@@ -194,9 +215,12 @@
 
   #skills {
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  #skills > h3 {
+  #skills h3 {
     text-transform: uppercase;
     font-family: "Roboto Condensed";
     font-weight: 400;
@@ -205,12 +229,17 @@
     margin-bottom: 0px;
   }
 
-  #skills > p {
+  #skills p {
     font-family: "Source Code Pro";
     text-align: justify;
     color: #535353cc;
     line-height: 1.35;
     font-size: 0.95rem;
+  }
+
+  #hard_skills,
+  #soft_skills {
+    width: 48%;
   }
 
   #experience {
@@ -264,5 +293,30 @@
     /* margin-bottom: 5px; */
     margin-left: 10px;
     line-height: 1.5;
+  }
+
+  #languages {
+    margin-top: 40px;
+  }
+  #languages > h3 {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: -0.5px;
+    margin-bottom: 0px;
+  }
+  #languages > p {
+    font-family: "Source Code Pro";
+    text-align: justify;
+    color: #535353cc;
+    line-height: 1.35;
+    font-size: 0.95rem;
+  }
+
+  #languages > p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 </style>

@@ -26,24 +26,32 @@
     <h1>Daniel Covarrubias Sanchez</h1>
   </section>
 
-  <section id="summary">
+  <!-- <section id="summary">
     <h3>Summary</h3>
     <p>
-      Computer Systems Engineer with over 3 years of experience in software
+      Computer Systems Engineer with over 2 years of experience in software
       development, specializing in automation and Backend development. Skilled
       in problem-solving, teamwork, leadership, and fast learning. Focused on
       creating efficient and scalable solutions that optimize processes and
       enhance productivity.
     </p>
-  </section>
+  </section> -->
 
   <section id="skills">
-    <h3>Skills</h3>
-    <p>
-      Node.js, Python, Rust, MySQL, SQL Server, PostgreSQL, MongoDB, Redis,
-      Docker, APIs, Web Services, Kubernetes, AWS, CI/CD, Jest, JWT, OAuth,
-      WebSocket, ReactJS
-    </p>
+    <section id="hard_skills">
+      <h3>Hard skills</h3>
+      <p>
+        Javascript, Typescript, Node.js, Express.js, MongoDB, MySQL, PostgreSQL,
+        Redis, Docker, Kubernetes, AWS (S3, EC2, Lambda, RDS), Python, GitHub
+      </p>
+    </section>
+    <section id="soft_skills">
+      <h3>Soft skills</h3>
+      <p>
+        Problem-solving, Teamwork, Leadership, Fast learning, Adaptability,
+        Effective communication
+      </p>
+    </section>
   </section>
 
   <section id="experience">
@@ -103,6 +111,15 @@
         </li>
       </ul>
     </div>
+  </section>
+
+  <section id="languages">
+    <h3>Idiomas</h3>
+    <p>
+      <span> Spanish: <b>Nativo</b> </span>
+      <span> English: <b>Avanzado (C1)</b> </span>
+      <span> German: <b>Basico (A2)</b> </span>
+    </p>
   </section>
 </div>
 
@@ -167,8 +184,11 @@
     letter-spacing: -1.8px;
   }
 
-  #summary {
-    margin-top: 70px;
+  #skills {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   #summary > h3 {
@@ -192,7 +212,7 @@
     margin-top: 40px;
   }
 
-  #skills > h3 {
+  #skills h3 {
     text-transform: uppercase;
     font-family: "Roboto Condensed";
     font-weight: 400;
@@ -201,12 +221,17 @@
     margin-bottom: 0px;
   }
 
-  #skills > p {
+  #skills p {
     font-family: "Source Code Pro";
     text-align: justify;
     color: #535353cc;
     line-height: 1.35;
     font-size: 0.95rem;
+  }
+
+  #hard_skills,
+  #soft_skills {
+    width: 48%;
   }
 
   #experience {
@@ -260,5 +285,30 @@
     /* margin-bottom: 5px; */
     margin-left: 10px;
     line-height: 1.5;
+  }
+
+  #languages {
+    margin-top: 40px;
+  }
+  #languages > h3 {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: -0.5px;
+    margin-bottom: 0px;
+  }
+  #languages > p {
+    font-family: "Source Code Pro";
+    text-align: justify;
+    color: #535353cc;
+    line-height: 1.35;
+    font-size: 0.95rem;
+  }
+
+  #languages > p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 </style>
