@@ -5,6 +5,7 @@
 <div id="container">
   <section id="name">
     <h1>Daniel Covarrubias Sanchez</h1>
+    <h3>Software Engineering Lead / Technical Lead</h3>
   </section>
 
   <section id="personal_info">
@@ -32,7 +33,7 @@
         <h3>Skills</h3>
         <p>
           <b>Languages | </b>
-          JavaScript, TypeScript, Python
+          JavaScript, TypeScript, Python, Rust, SQL (PostgreSQL / MySQL)
         </p>
         <p>
           <b>Frontend & Backend | </b>
@@ -43,8 +44,8 @@
           AWS (Lambda, S3, EC2, RDS), Docker, Kubernetes, CI/CD
         </p>
         <p>
-          <b>Leadership & Management |</b>
-          Agile (Scrum, Kanban), Hiring & Mentorship, Tech Roadmaps
+          <b>Leadership & Technical Direction |</b>
+          Code Quality, Architecture Reviews, Mentorship, Roadmaps
         </p>
         <p>
           <b>Process Optimization | </b>
@@ -57,61 +58,73 @@
         <div class="job">
           <p class="title">
             <span>Xira Intelligence, Mexico City</span>
-            <span> - Software Development Manager</span>
+            <span> - Software Engineering Lead / Technical Lead</span>
           </p>
-          <p class="lapse">January 2023 - PRESENT</p>
+          <p class="lapse">January 2023 - July 2025</p>
           <ul>
             <li>
-              <b>Led</b> the development of the company's flagship product, improving
-              its <b>innovation, scalability, and performance</b>.
+              Led the <b>architecture, design, and hands-on development</b> of the
+              company’s flagship product, focusing on <b>scalability</b>, <b
+                >performance</b
+              >, and
+              <b>system reliability</b> under high-volume workloads.
             </li>
             <li>
-              <b>Acted as a Solutions Architect</b>, designing and implementing
-              custom systems to optimize internal processes and meet various
-              client needs.
+              Served as <b>Solutions Architect</b>, implementing <b
+                >microservices</b
+              >,
+              <b>Redis caching layers</b>, and <b>automated CI/CD pipelines</b> to
+              improve <b>deployment speed</b> and <b
+                >infrastructure efficiency</b
+              >.
             </li>
             <li>
-              <b>Managed the development and maintenance</b> of two key products,
-              ensuring <b>high availability, performance, and stability</b>.
+              Provided <b>technical leadership</b> through <b>code reviews</b>,
+              <b>architecture guidance</b>, and <b>mentorship</b>, ensuring
+              <b>clean, maintainable, and scalable codebases</b>.
             </li>
             <li>
-              <b>Automated critical internal processes</b>, reducing development
-              times by 50% and enabling the deployment of new solutions in less
-              than <b>one week</b>.
+              Designed and automated critical internal workflows,
+              <b>reducing development time by 50%</b> and enabling new features and
+              services to be deployed <b>in under one week</b>.
             </li>
             <li>
-              <b>Delivered projects with a 98% SLA compliance rate</b>, reducing
-              response times by 40% and increasing client satisfaction by 25%.
+              Oversaw system stability and performance, achieving
+              <b>98% SLA compliance</b>, <b>reducing response times by 40%</b>,
+              and
+              <b>increasing client satisfaction by 25%</b>.
             </li>
           </ul>
         </div>
         <div class="job">
           <p class="title">
             <span>Xira Intelligence, Mexico City</span>
-            <span>- Junior Full Stack Developer</span>
+            <span> - Junior Full Stack Developer</span>
           </p>
           <p class="lapse">December 2021 - December 2022</p>
           <ul>
             <li>
-              <b>Designed and implemented</b> a new <b>Voicebot</b> architecture
-              used by one of the leading telecommunications companies in Mexico,
-              significantly improving the <b>customer experience</b> and operational
-              efficiency.
+              Designed and implemented a <b>Voicebot architecture</b> for a major
+              telecom client, improving <b>user experience</b> and <b
+                >operational efficiency</b
+              >.
             </li>
             <li>
-              <b>Developed advanced chatbots</b> with proprietary technology, integrating
-              <b>APIs, databases, and NLP</b>, optimizing interaction and
-              process automation.
+              Built <b>custom chatbots</b> using internal <b>NLP</b> and <b
+                >API integrations</b
+              >, automating <b>support flows</b> and <b>data management</b>.
             </li>
             <li>
-              <b>Implemented RPA (Robotic Process Automation) solutions</b> to automate
-              complex workflows across multiple platforms, increasing efficiency
-              and reducing manual errors.
+              Developed <b>RPA (Robotic Process Automation)</b> solutions to handle
+              <b>multi-platform workflows</b>, reducing <b
+                >manual intervention</b
+              > and <b>errors</b>.
             </li>
             <li>
-              <b>Consistently exceeded my quarterly KPIs</b>, being the only
-              team member to meet <b>all annual goals</b>, standing out for my
-              performance and commitment.
+              Consistently <b>exceeded quarterly KPIs</b>, being the only team
+              member to meet <b>100% of annual goals</b> through <b
+                >high-quality deliverables</b
+              > and <b>initiative</b>.
             </li>
           </ul>
         </div>
@@ -223,6 +236,16 @@
     font-size: 2.5rem;
     letter-spacing: -1.8px;
     text-align: center;
+    margin-bottom: -20px;
+  }
+
+  #name > h3 {
+    color: #535353cc;
+    font-weight: 500;
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-size: 1.4rem;
+    text-align: center;
     margin-bottom: 10px;
   }
 
@@ -305,7 +328,6 @@
   }
 
   #experience > .job > .title {
-    text-align: justify;
     font-family: "Source Code Pro";
     font-weight: 700;
     font-size: 1rem;
@@ -322,6 +344,7 @@
     color: #535353cc;
     font-weight: 400;
     font-style: italic;
+    display: inline-block;
   }
 
   #experience > .job > .lapse {
